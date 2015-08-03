@@ -7,7 +7,7 @@ class ConfigLoader:
         with open ("./config/config.yaml", 'r') as ymlfile:
             cfg = yaml.load(ymlfile)
             self.price_threshold = cfg['price_threshold']
-            self.api_key =  cfg['qpx__express_api_key']
+            self.qpx_express_api_key =  cfg['qpx_express_api_key']
             self.target_email = cfg['target_email']
             self.SMTP_SERVER = cfg['SMTP_SERVER']
             self.SMTP_PORT = cfg['SMTP_PORT']

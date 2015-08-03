@@ -6,7 +6,7 @@ import json
 
 
 def sendRequest():
-    request_url = 'https://www.googleapis.com/qpxExpress/v1/trips/search?key='+conf_loader.qpx__express_api_key
+    request_url = 'https://www.googleapis.com/qpxExpress/v1/trips/search?key='+conf_loader.qpx_express_api_key
     f = open('./config/flight_details.json', 'rb')
     json_data = json.load(f)
     jsonreq = json.dumps(json_data)
