@@ -1,0 +1,8 @@
+qpx__express_api_key: AIzaSyCjgAE9AFogWku2Plblabla
+price_threshold: 150
+target_email: target_user@gmail.com
+SMTP_SERVER: smtp.gmail.com
+SMTP_PORT: 587
+SMTP_USERNAME: my_email_username
+SMTP_PASSWORD: my_email_password
+

@@ -1,0 +1,19 @@
+{
+  "request": {
+    "passengers": {
+      "adultCount": 1
+    },
+    "slice": [
+      {
+        "origin": "BER",
+        "destination": "MOW",
+        "date": "2015-09-08"
+      },
+      {
+        "origin": "MOW",
+        "destination": "BER",
+        "date": "2015-09-14"
+      }
+    ]
+  }
+}
